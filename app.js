@@ -19,9 +19,7 @@ function getPokemonList() {
         results: pokemonList,
       } = data;
 
-      pokemonList.forEach(function (pokemon) {
-        createPokemonList(pokemon.name);
-      });
+      pokemonList.forEach((pokemon) => createPokemonList(pokemon.name));
     });
 }
 getPokemonList();
