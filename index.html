@@ -15,9 +15,21 @@
       Pokedex
     </nav>
     <div class="grid grid-cols-2 rows-2 md:grid-cols-4 lg:grid-cols-2">
-      <div class="outline outline-green-600">COLUMNA 1</div>
-      <div class="outline outline-red-600">COLUMNA 2</div>
-      <div class="outline outline-red-600 col-span-full">ROW 2</div>
+      <div id="pokemon-list-container" class="outline outline-green-600">
+        POKEMON LIST
+      </div>
+      <div id="pokemon-card-container" class="">
+        <img
+          src="/img/pokemon-outline.png"
+          alt="pokemon outline"
+          width="500px"
+          height="500px"
+        />
+        <h1 class="text-3xl text-yellow-800">
+          Please select a pokemon from the list
+        </h1>
+      </div>
+      <div class="outline outline-red-600 col-span-full">PAGINATION</div>
     </div>
 
     <script src="app.js"></script>
